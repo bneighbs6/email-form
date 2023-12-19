@@ -1,0 +1,21 @@
+body {
+    padding: 10px;
+  }
+
+  input {
+    margin: 8px;
+    width: 98%;
+  }
+
+textarea {
+    display: flex;
+    justify-content: flex-end;
+    width: 99%;
+    height: 150px;
+  }
+
+  button {
+    display: flex;
+    margin: 20px;
+    justify-content: flex-end;
+  }
