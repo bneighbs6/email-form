@@ -15,6 +15,7 @@
 <form>
     <fieldset>
         <legend>Email Form</legend>
+        <!--Name Text Field-->
         <div>
             <label for="name">Name:</label>
             <input 
@@ -23,6 +24,28 @@
                 name="name"
                 placeholder="Enter full name"
                 />
+        </div>
+        <!--Email Text Field-->
+        <div>
+            <label for="email">Email:</label>
+            <input
+                id="email"
+                type="text"
+                name="email"
+                placeholder="Enter Email Address"
+            />
+        </div>
+        <!--Message Text Area-->
+        <div>
+            <label for="message">Your Message:</label>
+            <textarea 
+            id="message"
+            name="message"
+            autofocus="on"
+            required
+            maxlength="200"
+            placeholder="Type your message here."
+            ></textarea>
         </div>
     </fieldset>
 </form>  
